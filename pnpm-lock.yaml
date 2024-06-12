@@ -12,8 +12,8 @@ dependencies:
     specifier: 0.6.0-next.2
     version: 0.6.0-next.2(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.2-next.4)(@types/node@20.9.0)(codemirror@6.0.1)(eslint@8.56.0)(framer-motion@11.1.7)(react-dom@18.2.0)(typescript@5.2.2)
   '@player-tools/devtools-types':
-    specifier: 0.6.0-next.2
-    version: 0.6.0-next.2
+    specifier: 0.6.0
+    version: 0.6.0
   '@player-ui/pubsub-plugin':
     specifier: 0.7.2-next.4
     version: 0.7.2-next.4(@player-ui/player@0.7.2-next.4)
@@ -4273,6 +4273,13 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@player-tools/devtools-types@0.6.0:
+    resolution: {integrity: sha512-dkYUw0iNKIrtc3dOE6kd+GTIvzec8biQmqlkYLhjsyInTjkkuMOxqR+HtG5N/HAp9C4Ddudh6C/lMBxIcy8xjA==}
+    dependencies:
+      '@player-ui/types': 0.7.3
+      tslib: 2.6.2
+    dev: false
+
   /@player-tools/devtools-types@0.6.0-next.2:
     resolution: {integrity: sha512-/XxAUWahwDBP6iYv9/8tScnM2y3wdJVd+vZkDcuU/Y8KxAE25PGhyg18dr3ePTh30OK75BuxltTTRBfLfl6t0w==}
     dependencies:
@@ -4503,6 +4510,12 @@ packages:
 
   /@player-ui/types@0.7.2-next.4:
     resolution: {integrity: sha512-wvKlmu+ZJSVT5fs/vHHwpv4KhgZmqinJBvHhttU4LHzqrEauaRcS/DVCItABXt6ABxhIakPInnxQtH1xCwdDyQ==}
+    dependencies:
+      '@babel/runtime': 7.15.4
+    dev: false
+
+  /@player-ui/types@0.7.3:
+    resolution: {integrity: sha512-Uqk14S4UmMM3O36TXt/PwYI9JY5aNYF1A3v/2wT9+gKv0RPZTXrs2N6MFXW8RopH/XeUwuunThVCpRZCsFiUMg==}
     dependencies:
       '@babel/runtime': 7.15.4
     dev: false
@@ -9366,7 +9379,7 @@ packages:
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.24.4
       react: 18.2.0
     dev: false
 
