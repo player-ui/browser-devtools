@@ -1,23 +1,11 @@
 name: "Submit to Web Store"
 on:
   workflow_dispatch:
-inputs:
-  secret_input:
-    description: "from build.yml"
-    required: true
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Cache pnpm modules
-        uses: actions/cache@v3
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-
       - uses: pnpm/action-setup@v2.2.4
         with:
           version: latest
@@ -34,5 +22,5 @@ jobs:
       - name: Browser Platform Publish
         uses: PlasmoHQ/bpp@v3
         with:
-          keys: ${{ inputs.secret_input }}
+          keys: ${{ env.SUBMIT_KEYS }}
           artifact: build/chrome-mv3-prod.zip
