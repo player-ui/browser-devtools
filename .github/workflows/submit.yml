@@ -1,8 +1,7 @@
 name: Submit to Web Store
 on:
   workflow_dispatch: null
-    secrets:
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
