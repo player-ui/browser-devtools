@@ -8,6 +8,7 @@
     "dev": "plasmo dev",
     "build:chrome": "plasmo build",
     "build:firefox": "plasmo build --target=firefox-mv2",
+    "package": "plasmo package",
     "inject:css": "scripts/inject-css.sh",
     "build": "pnpm build:chrome && pnpm build:firefox && pnpm inject:css",
     "test": "plasmo test",
