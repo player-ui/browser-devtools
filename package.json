@@ -9,7 +9,6 @@
     "build:chrome": "plasmo build",
     "build:firefox": "plasmo build --target=firefox-mv2",
     "inject:css": "scripts/inject-css.sh",
-    "build:prod": "npm build",
     "build": "pnpm build:chrome && pnpm build:firefox && pnpm inject:css",
     "test": "plasmo test",
     "inject:chrome": "pnpm build:chrome && pnpm inject:css && web-ext run -t chromium --start-url \"https://example.com\" --source-dir ./build/chrome-mv3-prod",
