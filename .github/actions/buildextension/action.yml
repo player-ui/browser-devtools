@@ -12,7 +12,7 @@ runs:
       shell: bash
 
     - name: Build extension
-      run: npm run build --if-present
+      run: npm run build:chrome --if-present
       shell: bash
 
     - name: Pack extension
