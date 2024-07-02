@@ -1,27 +1,34 @@
-name: 'Build Chrome extension'
-runs:
-  using: "composite"
-  steps:
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 20
+name: "Submit to Web Store"
+on:
+  workflow_dispatch:
 
-    - name: Install packages
-      run: npm ci --force
-      shell: bash
-
-    - name: Build extension
-      run: npm run build:chrome --if-present
-      shell: bash
-
-    - name: Pack extension
-      working-directory: out
-      run: zip -r extension-${{ github.event.pull_request.head.sha }}.zip *
-      shell: bash
-
-    - name: Upload extension archive
-      uses: actions/upload-artifact@v3
-      with:
-        name: extension-${{ github.sha }}
-        path: out/extension-${{ github.event.pull_request.head.sha }}.zip
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache pnpm modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: latest
+          run_install: true
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3.4.1
+        with:
+          node-version: 16.x
+          cache: "pnpm"
+      - name: Build the extension
+        run: pnpm build
+      - name: Package the extension into a zip artifact
+        run: pnpm package
+      - name: Browser Platform Publish
+        uses: PlasmoHQ/bpp@v3
+        with:
+          keys: ${{ secrets.SUBMIT_KEYS }}
+          artifact: build/chrome-mv3-prod.zip
