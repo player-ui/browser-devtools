@@ -28,7 +28,9 @@ jobs:
         with:
           node-version: 18.x
           cache: "pnpm"
-
+      - name: install sharp module
+        run: pnpm add sharp
+        
       - name: Build the extension
         run: pnpm build:chrome 
         
