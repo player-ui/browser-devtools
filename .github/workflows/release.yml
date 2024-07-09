@@ -30,8 +30,6 @@ jobs:
       - name: auto version - run release script
         run: pnpm release
 
-
-jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
