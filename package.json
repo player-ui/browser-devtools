@@ -1,7 +1,7 @@
 {
   "name": "browser-devtools",
   "displayName": "Player ui devtools",
-  "version": "0.0.5",
+  "version": "0.0.4",
   "description": "Player UI devtools browser extension",
   "author": "Rafael Campos <campos.rb@hotmail.com>",
   "scripts": {
@@ -14,7 +14,7 @@
     "test": "plasmo test",
     "inject:chrome": "pnpm build:chrome && pnpm inject:css && web-ext run -t chromium --start-url \"https://example.com\" --source-dir ./build/chrome-mv3-prod",
     "inject:firefox": "pnpm build:firefox && pnpm inject:css  && pnpm web-ext run --start-url \"about:debugging#/runtime/this-firefox\"  --source-dir ./build/firefox-mv2-prod",
-    "release": "./scripts/release.sh"
+    "release": "pnpm version $(pnpm auto version)"
   },
   "dependencies": {
     "@auto-it/chrome": "^11.1.6",
