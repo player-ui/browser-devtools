@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    [
+      "chrome",
+      {
+        "id": "oookcmbndmalnmacldppblmblakggabo",
+        "build": "build/chrome-mv3-prod",
+        "manifest": "build/chrome-mv3-prod/manifest.json"
+      }
+    ]
+  ],
+  "owner": "player-ui",
+  "repo": "browser-devtools",
+  "name": "marky ercillo",
+  "email": "mercillo729@gmail.com",
+  "onlyPublishWithReleaseLabel": true
+}

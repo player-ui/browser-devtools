@@ -13,9 +13,11 @@
     "build": "pnpm build:chrome && pnpm build:firefox && pnpm inject:css",
     "test": "plasmo test",
     "inject:chrome": "pnpm build:chrome && pnpm inject:css && web-ext run -t chromium --start-url \"https://example.com\" --source-dir ./build/chrome-mv3-prod",
-    "inject:firefox": "pnpm build:firefox && pnpm inject:css  && pnpm web-ext run --start-url \"about:debugging#/runtime/this-firefox\"  --source-dir ./build/firefox-mv2-prod"
+    "inject:firefox": "pnpm build:firefox && pnpm inject:css  && pnpm web-ext run --start-url \"about:debugging#/runtime/this-firefox\"  --source-dir ./build/firefox-mv2-prod",
+    "release": "./scripts/release.sh"
   },
   "dependencies": {
+    "@auto-it/chrome": "^11.1.6",
     "@plasmohq/storage": "^1.10.0",
     "@player-tools/devtools-client": "0.7.0-next.2",
     "@player-tools/devtools-types": "0.7.0-next.2",
@@ -37,10 +39,9 @@
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
     "@types/webextension-polyfill": "^0.10.7",
-    "cws-publish": "^2.1.1",
+    "auto": "^11.1.6",
     "install": "^0.13.0",
     "npm": "^10.8.1",
-    "chrome-webstore-upload-cli": "^3.3.0",
     "prettier": "3.0.3",
     "typescript": "5.2.2",
     "web-ext": "^7.9.0",
