@@ -14,7 +14,7 @@
     "test": "plasmo test",
     "inject:chrome": "pnpm build:chrome && pnpm inject:css && web-ext run -t chromium --start-url \"https://example.com\" --source-dir ./build/chrome-mv3-prod",
     "inject:firefox": "pnpm build:firefox && pnpm inject:css  && pnpm web-ext run --start-url \"about:debugging#/runtime/this-firefox\"  --source-dir ./build/firefox-mv2-prod",
-    "release": "auto shipit"
+    "release": "./scripts/release.sh"
   },
   "dependencies": {
     "@auto-it/chrome": "^11.1.6",

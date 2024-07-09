@@ -1,14 +1,14 @@
 export PATH=$(pnpm bin):$PATH
 
-VERSION=`pnpm auto version`
+VERSION=`auto version`
 
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
-  pnpm auto changelog
+  auto changelog
 
   ## Publish Package
-  pnpm version $VERSION -m "Bump version to: %s [skip ci]"
+  npm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
   ## npm publish
 
