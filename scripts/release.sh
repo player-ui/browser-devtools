@@ -2,6 +2,8 @@ export PATH=$(pnpm bin):$PATH
 
 VERSION=`auto version`
 
+echo "version : "
+echo "$VERSION"
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
