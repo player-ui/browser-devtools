@@ -1,6 +1,6 @@
 export PATH=$(npm bin):$PATH
 
-VERSION=`auto version`
+VERSION=`pnpm auto version`
 
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
@@ -9,7 +9,8 @@ if [ ! -z "$VERSION" ]; then
 
   ## Publish Package
   npm version $VERSION -m "Bump version to: %s [skip ci]"
-  npm publish
+  ## publish to npm
+  ## npm publish
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin $branch
