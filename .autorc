@@ -1,12 +1,4 @@
 {
-  "plugins": [
-    [
-      "version-file",
-      {
-        "versionFile": "./VERSION"
-      }
-    ]  
-  ],
   "owner": "player-ui",
   "repo": "browser-devtools",
   "name": "marky ercillo",
