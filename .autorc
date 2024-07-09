@@ -7,17 +7,10 @@
         "build": "build/chrome-mv3-prod",
         "manifest": "build/chrome-mv3-prod/manifest.json"
       }
-    ],
-    [
-      "version-file",
-      {
-        "versionFile": "./VERSION"
-      }
-    ]  
+    ]
   ],
   "owner": "player-ui",
   "repo": "browser-devtools",
   "name": "marky ercillo",
-  "email": "mercillo729@gmail.com",
-  "onlyPublishWithReleaseLabel": true
+  "email": "mercillo729@gmail.com"
 }
