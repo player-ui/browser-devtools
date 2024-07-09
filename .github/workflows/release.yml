@@ -30,8 +30,11 @@ jobs:
       - name: install sharp module
         run: pnpm add sharp
 
-      - name: auto version - run release script
-        run: pnpm version $(pnpm auto version)
+      - name: auto version 
+        run: pnpm auto version
+
+      - name: npm version  
+        run: pnpm version
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
