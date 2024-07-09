@@ -1,14 +1,11 @@
-name: "Submit to Web Store"
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+name: Release
 
+on: [push]
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
       - uses: actions/checkout@v3
       - name: Cache pnpm modules
@@ -29,6 +26,10 @@ jobs:
         with:
           node-version: 18.x
           cache: "pnpm"
+
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
+
       - name: install sharp module
         run: pnpm add sharp
 
@@ -38,6 +39,13 @@ jobs:
       - name: Package the extension into a zip artifact
         run: pnpm package
 
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          pnpm auto shipit
+      
       - name: Browser Platform Publish
         uses: PlasmoHQ/bpp@v3
         with:
