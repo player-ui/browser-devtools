@@ -30,9 +30,6 @@ jobs:
       - name: install sharp module
         run: pnpm add sharp
 
-      - name: Build the extension
-        run: pnpm build:chrome 
-
       - name: auto version - run release script
         run: pnpm release
 

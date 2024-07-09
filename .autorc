@@ -1,13 +1,11 @@
 {
   "plugins": [
     [
-      "chrome",
+      "version-file",
       {
-        "id": "oookcmbndmalnmacldppblmblakggabo",
-        "build": "build/chrome-mv3-prod",
-        "manifest": "build/chrome-mv3-prod/manifest.json"
+        "versionFile": "./VERSION"
       }
-    ]
+    ]  
   ],
   "owner": "player-ui",
   "repo": "browser-devtools",
