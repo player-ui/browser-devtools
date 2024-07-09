@@ -1,6 +1,6 @@
 export PATH=$(npm bin):$PATH
 
-VERSION=`auto version`
+VERSION=`pnpm auto version`
 
 ## Support for label 'skip-release'
 if [ ! -z "$VERSION" ]; then
