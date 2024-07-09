@@ -31,7 +31,7 @@ jobs:
         run: pnpm add sharp
 
       - name: auto version - run release script
-        run: pnpm release
+        run: pnpm version $(pnpm auto version)
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
