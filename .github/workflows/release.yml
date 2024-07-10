@@ -30,7 +30,7 @@ jobs:
       - name: install sharp module
         run: pnpm add sharp
 
-      - name: auto version 
+      - name: fetch tags
         run: git fetch --tags
 
       - name: auto version 

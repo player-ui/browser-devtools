@@ -13,6 +13,8 @@ if [ ! -z "$VERSION" ]; then
 
   git status
 
+  git diff
+
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
