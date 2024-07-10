@@ -1,3 +1,15 @@
+# v0.0.5 (Wed Jul 10 2024)
+
+#### 🐛 Bug Fix
+
+- retrying release script ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.5 (Tue Jul 09 2024)
 
 #### 🐛 Bug Fix
