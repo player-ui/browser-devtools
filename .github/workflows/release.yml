@@ -31,10 +31,10 @@ jobs:
         run: pnpm add sharp
 
       - name: auto version 
-        run: npm auto version
+        run: pnpm auto version
 
-      - name: npm version  
-        run: npm version
+      - name: pnpm version  
+        run: pnpm version
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
