@@ -34,10 +34,7 @@ jobs:
         run: git fetch --tags
 
       - name: auto version 
-        run: pnpm auto version
-
-      - name: pnpm version  
-        run: pnpm version
+        run: pnpm release
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
