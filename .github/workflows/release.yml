@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-node@v3.4.1
         with:
           node-version: 18.x
-          cache: "pnpm"
+          cache: "pnpm --frozen-lockfile"
 
       - name: git status
         run: git status
