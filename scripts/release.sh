@@ -7,12 +7,15 @@ if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
 
+  echo $VERSION
+  
   ## Publish Package
-  pnpm version $VERSION -m "Bump version to: %s [skip ci]"
+  npm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
   ## npm publish
 
+  
   ## Create GitHub Release
-  git push --follow-tags --set-upstream origin $branch
+  ## git push --follow-tags --set-upstream origin $branch
   auto release
 fi
