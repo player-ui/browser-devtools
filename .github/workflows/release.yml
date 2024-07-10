@@ -31,6 +31,9 @@ jobs:
         run: pnpm add sharp
 
       - name: auto version 
+        run: git fetch --tags
+
+      - name: auto version 
         run: pnpm auto version
 
       - name: pnpm version  
