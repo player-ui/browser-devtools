@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v3.4.1
         with:
           node-version: 18.x
-          cache-dependency-path: '**/pnpm-lock.yaml'
+          cache: 'pnpm'
 
       - name: git status
         run: git status
