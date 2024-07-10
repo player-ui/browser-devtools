@@ -28,8 +28,10 @@ jobs:
         uses: actions/setup-node@v3.4.1
         with:
           node-version: 18.x
+        
+      - name: install pnpm frozen lockfile
         run: pnpm i --frozen-lockfile
-
+        
       - name: git status
         run: git status
 
