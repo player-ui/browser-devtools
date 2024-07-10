@@ -31,7 +31,7 @@ jobs:
         run: pnpm add sharp
 
       - name: auto version 
-        run: pnpm auto version
+        run: auto version
 
       - name: npm version  
         run: pnpm version
