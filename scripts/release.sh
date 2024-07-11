@@ -13,7 +13,6 @@ if [ ! -z "$VERSION" ]; then
 
   git status
 
-  git diff
 
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
@@ -23,5 +22,5 @@ if [ ! -z "$VERSION" ]; then
   
   ## Create GitHub Release
   ## git push --follow-tags --set-upstream origin $branch
-  auto release
+  auto release --dry-run
 fi
