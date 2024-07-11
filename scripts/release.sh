@@ -16,7 +16,9 @@ if [ ! -z "$VERSION" ]; then
   git stash
 
   git status 
-  
+
+  git fetch --tagsg
+
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
