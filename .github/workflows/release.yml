@@ -54,7 +54,10 @@ jobs:
           cache: 'pnpm'
 
       - name: pull latest version
-        run: git pull origin main
+        run: git pull --no-rebase
+
+      - name: check package.json
+        run: cat package.json
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
