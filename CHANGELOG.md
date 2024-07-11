@@ -1,3 +1,15 @@
+# v0.0.5 (Thu Jul 11 2024)
+
+#### 🐛 Bug Fix
+
+- tag command ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.5 (Wed Jul 10 2024)
 
 #### 🐛 Bug Fix
