@@ -71,7 +71,7 @@ jobs:
       - name: build folder
         run: cd build
 
-        name: exame build 
+      - name: exame build 
         run: ls
 
       - name: Browser Platform Publish
