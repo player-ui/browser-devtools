@@ -12,13 +12,18 @@ if [ ! -z "$VERSION" ]; then
   ls
 
   git stash
-
+  
   git fetch --tags  
+
+  git tag
+
 
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
   ## npm publish
+
+  git tag
 
   
   ## Create GitHub Release
