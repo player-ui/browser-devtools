@@ -52,8 +52,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
+
+      - name: pull latest version
+        run: git pull origin main
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
       - name: Build the extension
         run: pnpm build:chrome 
         
