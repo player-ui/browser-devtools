@@ -1,3 +1,15 @@
+# v0.0.8 (Thu Jul 11 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'cicdChromeExtension' of github.com:player-ui/browser-devtools into cicdChromeExtension ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.7 (Thu Jul 11 2024)
 
 #### 🐛 Bug Fix
