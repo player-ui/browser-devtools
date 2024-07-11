@@ -15,6 +15,6 @@ if [ ! -z "$VERSION" ]; then
   # pnpm publish
 
   ## Create GitHub Release
-  git push --follow-tags --set-upstream origin $branch
+  ## git push --follow-tags --set-upstream origin $branch
   auto release --dry-run
 fi
