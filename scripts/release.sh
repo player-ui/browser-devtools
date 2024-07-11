@@ -11,9 +11,12 @@ if [ ! -z "$VERSION" ]; then
   
   ls
 
-  git git stash
+  git status
 
+  git stash
 
+  git status 
+  
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
