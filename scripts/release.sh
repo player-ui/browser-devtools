@@ -11,13 +11,9 @@ if [ ! -z "$VERSION" ]; then
   
   ls
 
-  git status
-
   git stash
 
-  git status 
-
-  git fetch --tagsg
+  git fetch --tags  
 
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
