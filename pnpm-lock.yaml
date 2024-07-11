@@ -8,6 +8,9 @@ dependencies:
   '@auto-it/chrome':
     specifier: ^11.1.6
     version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+  '@auto-it/git-tag':
+    specifier: ^11.1.6
+    version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
   '@auto-it/version-file':
     specifier: ^11.1.6
     version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
@@ -184,6 +187,21 @@ packages:
       - '@swc/wasm'
       - encoding
       - supports-color
+
+  /@auto-it/git-tag@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-yxLba2W9WBAR4OSaSIezU3TSi9qMWKblwOGkJLyMrwHKXCqCM5EAk1ixiBpzlaqVWvD9RA23X7vZ1U4ohT6Udw==}
+    dependencies:
+      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      semver: 7.6.0
+      tslib: 2.1.0
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - encoding
+      - supports-color
+      - typescript
+    dev: false
 
   /@auto-it/npm@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
     resolution: {integrity: sha512-eFWzR+6N1lMSXi32BunnlIdXIFikX6mieaFLmPk9VNM4vOXqsfkc7BQ0xhsZRsn5sxSR/XBwlQXoExAHybjs3g==}

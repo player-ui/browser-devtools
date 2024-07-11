@@ -1,6 +1,8 @@
 {
+  "plugins": ["git-tag"],
   "owner": "player-ui",
   "repo": "browser-devtools",
   "name": "marky ercillo",
   "email": "mercillo729@gmail.com"
+  
 }
