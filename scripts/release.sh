@@ -11,7 +11,7 @@ if [ ! -z "$VERSION" ]; then
   
   ls
 
-  git status
+  git git stash
 
 
   ## Publish Package
