@@ -1,6 +1,9 @@
 name: Release
 
-on: [push]
+on: 
+  push: 
+    branches:
+      - main
 
 jobs:
   build:
@@ -23,9 +26,6 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-
-      - name: git status
-        run: git status
 
       - name: install sharp module
         run: pnpm add sharp
@@ -69,9 +69,6 @@ jobs:
 
       - name: pull latest version
         run: git pull --no-rebase
-
-      - name: check package.json
-        run: cat package.json
 
       - name: Build the extension
         run: pnpm build:chrome 

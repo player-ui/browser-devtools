@@ -10,11 +10,9 @@ if [ ! -z "$VERSION" ]; then
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
-  ## npm publish
-
-  # pnpm publish
+  pnpm publish
 
   ## Create GitHub Release
-  ## git push --follow-tags --set-upstream origin $branch
-  auto release --dry-run
+  git push --follow-tags --set-upstream origin $branch
+  auto release
 fi
