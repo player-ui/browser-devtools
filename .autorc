@@ -1,0 +1,8 @@
+{
+  "plugins": ["git-tag"],
+  "owner": "player-ui",
+  "repo": "browser-devtools",
+  "name": "player oss",
+  "email": "player.oss.intuit@gmail.com"
+  
+}
