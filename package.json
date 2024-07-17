@@ -47,7 +47,7 @@
     "prettier": "3.0.3",
     "typescript": "5.2.2",
     "web-ext": "^7.9.0",
-    "webextension-polyfill": "^0.10.0"
+    "webextension-polyfill": "^0.12.0"
   },
   "manifest": {
     "host_permissions": [
