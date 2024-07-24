@@ -20,6 +20,10 @@ for subfolder in build/*; do
 		
 			echo $devtools_file
 
+			ls
+
+			pwd
+
 			sed -i '' "s|</head>|$link_tag</head>|" $devtools_file
 		done
 	fi
