@@ -18,11 +18,11 @@ dependencies:
     specifier: ^1.10.0
     version: 1.10.0(react@18.2.0)
   '@player-tools/devtools-client':
-    specifier: 0.7.0-next.2
-    version: 0.7.0-next.2(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
+    specifier: 0.7.0
+    version: 0.7.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
   '@player-tools/devtools-types':
-    specifier: 0.7.0-next.2
-    version: 0.7.0-next.2
+    specifier: 0.7.0
+    version: 0.7.0
   '@player-ui/pubsub-plugin':
     specifier: 0.7.2-next.4
     version: 0.7.2-next.4(@player-ui/player@0.7.2-next.4)
@@ -4566,14 +4566,14 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@player-tools/devtools-client@0.7.0-next.2(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0):
-    resolution: {integrity: sha512-ohslZhvYBB0K699bEzwtucirApZhyLWMHg5D7hvrD2l3MPPdyWwbfMnM+CBHFyDFGCb8wGuN0Zs28WzcDThe9w==}
+  /@player-tools/devtools-client@0.7.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0):
+    resolution: {integrity: sha512-pGmZ27mHB9WVbgJAcazL+rIJ8aAxx3Hj6mBxsuBl0Ffxz+FhVl9ydIuliwFvVl9UfIHObQ3gVlM4lLEy+GAKGg==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@devtools-ds/themes': 1.2.1(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
       '@devtools-ui/plugin': 0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
-      '@player-tools/devtools-messenger': 0.7.0-next.2
-      '@player-tools/devtools-types': 0.7.0-next.2
+      '@player-tools/devtools-messenger': 0.7.0
+      '@player-tools/devtools-types': 0.7.0
       '@player-ui/pubsub-plugin': 0.7.3(@player-ui/player@0.7.2-next.4)
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.3.1
@@ -4605,17 +4605,17 @@ packages:
       - react-dom
     dev: false
 
-  /@player-tools/devtools-messenger@0.7.0-next.2:
-    resolution: {integrity: sha512-It0eVeIA8KhxY9zoujNR/J3uhqG3v6+OWbcGNgkxLFXyM+tZK3CS81RWWGfdaLrnM+gU/LTm93bHUuCxFiafQw==}
+  /@player-tools/devtools-messenger@0.7.0:
+    resolution: {integrity: sha512-neqcOpPWlk7aYjE1581+Gvm06BmS8DPRgUbiJGfxaVvBqseC4Wsgv90CkmT9PRKKwfhQoCMFAjcQNMVFchGgRw==}
     dependencies:
-      '@player-tools/devtools-types': 0.7.0-next.2
+      '@player-tools/devtools-types': 0.7.0
       '@types/node': 18.19.31
       tiny-uid: 1.1.2
       tslib: 2.6.2
     dev: false
 
-  /@player-tools/devtools-types@0.7.0-next.2:
-    resolution: {integrity: sha512-nPAp6bc+Toxj9Su58qoPrVVOxw0GdopOfv1OH1aF9ROelO0LpWdIKwnQxNCusH14QgDjqc2JzMN0nye/Y+7WtA==}
+  /@player-tools/devtools-types@0.7.0:
+    resolution: {integrity: sha512-LN3g0f1PZRB5NinPhY4ooXzS8f0f4D1o6/1W5C6eXwUoHq6QpVOzojw7ZNTsuBhf0tpDQ+C4wqHIZQY3mj9bBw==}
     dependencies:
       '@player-ui/types': 0.7.3
       tslib: 2.6.2
