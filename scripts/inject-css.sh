@@ -14,8 +14,10 @@ for subfolder in build/*; do
 
 			link_tag="<link rel=\"stylesheet\" href=\"$relative_file\" />"
 
-			echo $relative_file
+			echo $link_tag
 
+			echo $relative_file
+		
 			echo $devtools_file
 
 			sed -i '' "s|</head>|$link_tag</head>|" $devtools_file

@@ -14,6 +14,8 @@ if [ ! -z "$VERSION" ]; then
   ## publish to npm
   pnpm publish 
 
+  echo $branch
+
   ## Create GitHub Release
   # git push --follow-tags --set-upstream origin $branch
   auto release --dry-run
