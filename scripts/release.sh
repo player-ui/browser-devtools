@@ -17,6 +17,6 @@ if [ ! -z "$VERSION" ]; then
   echo $branch
 
   ## Create GitHub Release
-  # git push --follow-tags --set-upstream origin $branch
-  auto release --dry-run
+  git push --follow-tags --set-upstream origin $branch
+  auto release
 fi
