@@ -6,10 +6,17 @@ for subfolder in build/*; do
 
 		devtools_file=$(find $subfolder -name "devtools.*.html")
 
+		echo "css files"
+		echo $css_files
+
 		for file in $css_files; do
 			relative_file=$(basename $file)
 
 			link_tag="<link rel=\"stylesheet\" href=\"$relative_file\" />"
+
+			echo $relative_file
+
+			echo $devtools_file
 
 			sed -i '' "s|</head>|$link_tag</head>|" $devtools_file
 		done
