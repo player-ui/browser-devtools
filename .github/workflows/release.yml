@@ -67,6 +67,9 @@ jobs:
       - name: git status
         run: git status
 
+      - name: git diff
+        run: git diff
+
       - name: pull latest version
         run: git pull --no-rebase
 
