@@ -1,9 +1,6 @@
 name: Release
 
-on: 
-  push: 
-    branches:
-      - main
+on: [push]
 
 jobs:
   build:
@@ -73,6 +70,9 @@ jobs:
       - name: Build the extension
         run: pnpm build:chrome 
         
+      - name: Inject css
+        run: pnpm inject:css
+
       - name: Package the extension into a zip artifact
         run: pnpm package
 
