@@ -20,9 +20,15 @@ for subfolder in build/*; do
 		
 			echo $devtools_file
 
+			dir=$(pwd)
+
 			ls
 
-			dir=$(pwd)
+			cd build/chrome-mv3-prod/
+
+			ls 
+
+			echo $dir/$devtools_file
 
 			sed -i '' "s|</head>|$link_tag</head>|" $dir/$devtools_file
 		done
