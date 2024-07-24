@@ -68,7 +68,7 @@ jobs:
         run: git status
 
       - name: git diff
-        run: git diff
+        run: git stash
 
       - name: pull latest version
         run: git pull --no-rebase
