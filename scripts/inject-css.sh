@@ -22,7 +22,7 @@ for subfolder in build/*; do
 
 			ls
 
-			dir=pwd
+			dir=$(pwd)
 
 			sed -i '' "s|</head>|$link_tag</head>|" $dir/$devtools_file
 		done
