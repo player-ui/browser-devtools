@@ -22,10 +22,6 @@ for subfolder in build/*; do
 
 			dir=$(pwd)
 
-			ls
-
-			cd build/chrome-mv3-prod/
-
 			ls 
 
 			cat $devtools_file
