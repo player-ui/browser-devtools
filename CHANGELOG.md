@@ -1,3 +1,15 @@
+# v0.0.11 (Wed Jul 24 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'injectCSS-script' of github.com:player-ui/browser-devtools into injectCSS-script ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.10 (Wed Jul 24 2024)
 
 #### 🐛 Bug Fix
