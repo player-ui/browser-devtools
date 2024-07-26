@@ -1,3 +1,16 @@
+# v0.0.13 (Fri Jul 26 2024)
+
+#### 🐛 Bug Fix
+
+- update testing with github_token [#22](https://github.com/player-ui/browser-devtools/pull/22) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
+
+#### Authors: 2
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+- player oss (player.oss.intuit@gmail.com)
+
+---
+
 # v0.0.12 (Fri Jul 26 2024)
 
 #### 🐛 Bug Fix
