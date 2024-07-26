@@ -1,3 +1,63 @@
+# v0.0.11 (Wed Jul 24 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'injectCSS-script' of github.com:player-ui/browser-devtools into injectCSS-script ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.0.10 (Wed Jul 24 2024)
+
+#### 🐛 Bug Fix
+
+- try releasing with injectcss ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.0.9 (Wed Jul 24 2024)
+
+#### 🐛 Bug Fix
+
+- testing dryrun ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.0.8 (Wed Jul 24 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'injectCSS-script' of github.com:player-ui/browser-devtools into injectCSS-script ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.0.8 (Wed Jul 24 2024)
+
+#### 🐛 Bug Fix
+
+- modified pnpm lock file ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.8 (Wed Jul 17 2024)
 
 #### 🐛 Bug Fix

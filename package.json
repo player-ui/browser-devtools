@@ -1,7 +1,7 @@
 {
   "name": "browser-devtools",
   "displayName": "Player ui devtools",
-  "version": "0.0.7",
+  "version": "0.0.11",
   "description": "Player UI devtools browser extension",
   "author": "Rafael Campos <campos.rb@hotmail.com>",
   "scripts": {
@@ -21,8 +21,8 @@
     "@auto-it/git-tag": "^11.1.6",
     "@auto-it/version-file": "^11.1.6",
     "@plasmohq/storage": "^1.10.0",
-    "@player-tools/devtools-client": "0.7.0-next.2",
-    "@player-tools/devtools-types": "0.7.0-next.2",
+    "@player-tools/devtools-client": "0.7.0",
+    "@player-tools/devtools-types": "0.7.0",
     "@player-ui/pubsub-plugin": "0.7.2-next.4",
     "@player-ui/react": "0.7.2-next.4",
     "dequal": "^2.0.3",

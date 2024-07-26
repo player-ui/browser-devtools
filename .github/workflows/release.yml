@@ -67,12 +67,21 @@ jobs:
       - name: install sharp module
         run: pnpm add sharp
 
+      - name: git status
+        run: git status
+
+      - name: git diff
+        run: git stash
+
       - name: pull latest version
         run: git pull --no-rebase
 
       - name: Build the extension
         run: pnpm build:chrome 
         
+      - name: Inject css
+        run: pnpm inject:css
+
       - name: Package the extension into a zip artifact
         run: pnpm package
 
