@@ -1,3 +1,15 @@
+# v0.0.12 (Fri Jul 26 2024)
+
+#### 🐛 Bug Fix
+
+- update testing with github_token ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.11 (Wed Jul 24 2024)
 
 #### 🐛 Bug Fix
