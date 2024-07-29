@@ -1,3 +1,15 @@
+# v0.0.14 (Mon Jul 29 2024)
+
+#### 🐛 Bug Fix
+
+- Update dependency @types/node to v20.14.13 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 1
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+
+---
+
 # v0.0.12 (Fri Jul 26 2024)
 
 #### 🐛 Bug Fix

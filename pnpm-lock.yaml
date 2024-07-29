@@ -7,19 +7,19 @@ settings:
 dependencies:
   '@auto-it/chrome':
     specifier: ^11.1.6
-    version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+    version: 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
   '@auto-it/git-tag':
     specifier: ^11.1.6
-    version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+    version: 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
   '@auto-it/version-file':
     specifier: ^11.1.6
-    version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+    version: 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
   '@plasmohq/storage':
     specifier: ^1.10.0
     version: 1.10.0(react@18.2.0)
   '@player-tools/devtools-client':
     specifier: 0.7.0
-    version: 0.7.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
+    version: 0.7.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.14.13)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
   '@player-tools/devtools-types':
     specifier: 0.7.0
     version: 0.7.0
@@ -62,8 +62,8 @@ devDependencies:
     specifier: 0.0.251
     version: 0.0.251
   '@types/node':
-    specifier: 20.9.0
-    version: 20.9.0
+    specifier: 20.14.13
+    version: 20.14.13
   '@types/react':
     specifier: 18.2.37
     version: 18.2.37
@@ -75,7 +75,7 @@ devDependencies:
     version: 0.10.7
   auto:
     specifier: ^11.1.6
-    version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+    version: 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
   install:
     specifier: ^0.13.0
     version: 0.13.0
@@ -113,10 +113,10 @@ packages:
     resolution: {integrity: sha512-3Qdphiw9JlzYX15moLZSaP+jNuM3UAFDHTgIpsfnfIQwQDNSjZhM4rwxqsAY/r1mJAyxt16c6wbqisi7KNFD/A==}
     engines: {node: '>=10.x'}
 
-  /@auto-it/chrome@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /@auto-it/chrome@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-Ofp+SEaQLL3liv7vHNqD6YDgLiC7NRzFfyKENzt0Sx31iY5CV870KwsBqK4x0V6hTdDszINC7aFDb/tLenjXmg==}
     dependencies:
-      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      '@auto-it/core': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
       chrome-webstore-upload-cli: 1.2.2
       fp-ts: 2.16.7
       io-ts: 2.2.21(fp-ts@2.16.7)
@@ -131,7 +131,7 @@ packages:
       - typescript
     dev: false
 
-  /@auto-it/core@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /@auto-it/core@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-bxiUXJVyRYs7Bf4DH/JLT5pdR14RYSpoX0eBw0ilkU9qNqylTCbThuKofM7Bqn7jaQF2PDUoC72c8xCkqvHGQg==}
     peerDependencies:
       '@types/node': '*'
@@ -147,7 +147,7 @@ packages:
       '@octokit/plugin-retry': 3.0.9
       '@octokit/plugin-throttling': 3.7.0(@octokit/core@3.6.0)
       '@octokit/rest': 18.12.0
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
       await-to-js: 3.0.0
       chalk: 4.1.2
       cosmiconfig: 7.0.0
@@ -176,7 +176,7 @@ packages:
       tapable: 2.2.1
       terminal-link: 2.1.1
       tinycolor2: 1.6.0
-      ts-node: 10.9.2(@types/node@20.9.0)(typescript@5.2.2)
+      ts-node: 10.9.2(@types/node@20.14.13)(typescript@5.2.2)
       tslib: 2.1.0
       type-fest: 0.21.3
       typescript: 5.2.2
@@ -188,10 +188,10 @@ packages:
       - encoding
       - supports-color
 
-  /@auto-it/git-tag@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /@auto-it/git-tag@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-yxLba2W9WBAR4OSaSIezU3TSi9qMWKblwOGkJLyMrwHKXCqCM5EAk1ixiBpzlaqVWvD9RA23X7vZ1U4ohT6Udw==}
     dependencies:
-      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      '@auto-it/core': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
       semver: 7.6.0
       tslib: 2.1.0
     transitivePeerDependencies:
@@ -203,10 +203,10 @@ packages:
       - typescript
     dev: false
 
-  /@auto-it/npm@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /@auto-it/npm@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-eFWzR+6N1lMSXi32BunnlIdXIFikX6mieaFLmPk9VNM4vOXqsfkc7BQ0xhsZRsn5sxSR/XBwlQXoExAHybjs3g==}
     dependencies:
-      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      '@auto-it/core': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
       '@auto-it/package-json-utils': 11.1.6
       await-to-js: 3.0.0
       endent: 2.1.0
@@ -237,11 +237,11 @@ packages:
       parse-github-url: 1.0.2
     dev: true
 
-  /@auto-it/released@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /@auto-it/released@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-RHTSjq5fAQxkhcC84aWItotyPGH67o+bzSxzr9H4mzvP8OrIxj7Jsfmk8wT4rjgupCTl9fu8DiGoCGjcQpCdCw==}
     dependencies:
       '@auto-it/bot-list': 11.1.6
-      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      '@auto-it/core': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
       deepmerge: 4.3.1
       fp-ts: 2.16.7
       io-ts: 2.2.21(fp-ts@2.16.7)
@@ -255,10 +255,10 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/version-file@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /@auto-it/version-file@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-iDAK0IrCYFPDgkX4DGB97VFbiFEfxN+IMW1NiF+Qk7Kd3SX2899vwuFxyVvGwovX7ssuCi/4tSTrvx6PLhH6zw==}
     dependencies:
-      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      '@auto-it/core': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
       fp-ts: 2.16.7
       io-ts: 2.2.21(fp-ts@2.16.7)
       semver: 7.6.0
@@ -1769,15 +1769,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/action@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/action@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-lRGlgi+4LCvVmsGkdwGqQya9QE0+a3uPmz2+oK/XAXWUCxRZ1gOBmkiw9czT7UEb1ImhGCihR5xvcRs7S3hakA==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1795,14 +1795,14 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/code-editor@0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@types/node@20.9.0)(codemirror@6.0.1)(react-dom@18.2.0):
+  /@devtools-ui/code-editor@0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@types/node@20.14.13)(codemirror@6.0.1)(react-dom@18.2.0):
     resolution: {integrity: sha512-oEsDc5Wr7m7RLQvNgoqbTvX7Gk+hOW24Y5Pl7xBRg15It3pSysLibSAlfDMFIipmPiRVv+sHXEsITwxVCcnqcg==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@codemirror/lang-json': 6.0.1
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1831,14 +1831,14 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/collection@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/collection@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-EPeuTvDJdrkKMeiCX7GkhG9qEsOW2LqDdGkXgrvNvgSWeQVSbM+lOT/XFiouV3XMmGDaCCvtMDJjyuWlZbY5Zw==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
       '@player-ui/types': 0.7.3
@@ -1855,16 +1855,16 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/console@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/console@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-jLFSSSd7Dnoqd1DnxTQFhxSy0Gx8k/ORO3yQxoZbC9R9yDrfMUgFrqjFgIJnTUzTaWkeYaC5OkLZqNiCTa0+vg==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@devtools-ds/console': 1.2.1(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1882,15 +1882,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/copy-to-clipboard@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/copy-to-clipboard@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-34qSHPu4lm8brSdXvtcOOGNHZ7+//AEiCZ/O/Px4KFhfKkEsuVQGmgPjv5SklFCgVNGi5aolqt/y+7Mcqf1WEA==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1910,13 +1910,13 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/flame-graph@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/flame-graph@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-Fyg1LwOJmUwHXfFqS+KxDWllv5ZjZWWdOWvy0hX+PRFof9fmw4efLWoMfmZQfnKFYvoxxbezAdvOrOCdo0UU+Q==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1935,14 +1935,14 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/input@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/input@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-aLFdAL4U1DAQdO2GYBgVtSo6tzN/Hk+Q4lqH6UBF7UEsNSxNfk+BgLaZwlIIUdW6bvZAcdtWOmqm8S75ud3AOg==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1960,15 +1960,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/list@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/list@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-pVgjCQSk3qz1sqssLhfsQOry50GpuB4iUP2QO1H+dJcgb0XBPUR6+OtNqZqzuGQwoVLZdEcugkm+OsDwjuejag==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
       '@player-ui/types': 0.7.3
@@ -1985,15 +1985,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/navigation@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/navigation@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-vZOsmTh1pkbd5BJMYDpyyLhJzXgjWj62MZbmu1WBGwD0TOiBIhD9aDExcfR1h8TZhdSVGmzF2Orcfi5pCLPSJQ==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
       '@player-ui/types': 0.7.3
@@ -2010,16 +2010,16 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/object-inspector@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/object-inspector@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-xfsIA404u2hoIerGtgtcvomvrVq6LYRxh1+U6oHpy+KHhg5eqH4an5SaSuQv6AAHESp8nkyqnPdtxsRwHDhuSg==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@devtools-ds/object-inspector': 1.2.1(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
       '@player-ui/types': 0.7.3
@@ -2036,25 +2036,25 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/plugin@0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0):
+  /@devtools-ui/plugin@0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/types@0.7.3)(@types/node@20.14.13)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0):
     resolution: {integrity: sha512-h6s6dIYEWlH+aWrRdaGkMKqZq2gd/0MLAGGnytKZdQj+0Nb3ZJkGI22wAVqpgyWixUQ3y8e/5tdzgZXMmX8qsQ==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/action': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/code-editor': 0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@types/node@20.9.0)(codemirror@6.0.1)(react-dom@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/console': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/copy-to-clipboard': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/flame-graph': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/input': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/list': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/navigation': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/object-inspector': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/radio-group': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/stacked-view': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/table': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/toggle': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/action': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/code-editor': 0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@types/node@20.14.13)(codemirror@6.0.1)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/console': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/copy-to-clipboard': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/flame-graph': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/input': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/list': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/navigation': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/object-inspector': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/radio-group': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/stacked-view': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/table': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/toggle': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@player-ui/asset-provider-plugin-react': 0.7.3(@player-ui/react@0.7.3)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
@@ -2083,15 +2083,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/radio-group@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/radio-group@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-x19tN2jrgdMUrhssYkZ7EusbZ0SCpx8dj6KePQe+X7D1yuM2CnCaDAYlDn0AgE2Cd0LdR9l5q1DDr7PBnNbNNQ==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -2109,15 +2109,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/stacked-view@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/stacked-view@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-3UJJ5vEADPAGJ0Q0YD8+7Zfytudftw1Ox01D9cJJj1CRD7UDA95zVQE3EF9gP+oFmZTJfSp3EiiUVqynPyb9pQ==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -2135,15 +2135,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/table@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/table@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-Ek9NokAPb09myTOXHdQUIU2FTSyk+hcQVVGcA4TOUQXYfZB+ptoetF/Pe2zbN6Mt+gAp0aToVwrIcxKPBmMBKA==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -2161,13 +2161,13 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/text@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/text@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-YtybIXxn/bmqG2qhVPN+5JqhwLhZefM7jxp/Ncl6dN1d7zaCoQvOAtJWGxRmr3pOaOcSQHKG/T0t7/EiYMyVCw==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/types': 0.7.3
       '@types/react': 18.3.1
       dlv: 1.1.3
@@ -2182,15 +2182,15 @@ packages:
       - react-dom
     dev: false
 
-  /@devtools-ui/toggle@0.3.0(@types/node@20.9.0)(react-dom@18.2.0):
+  /@devtools-ui/toggle@0.3.0(@types/node@20.14.13)(react-dom@18.2.0):
     resolution: {integrity: sha512-fMb55gJjWvrVerkUSms/A/3MFItHASETdNXNdbK/xNaIPgH1FnIyf+0cY9m53Ib+4ZXiaKdeiEOX3os1mxoytQ==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/collection': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
-      '@devtools-ui/text': 0.3.0(@types/node@20.9.0)(react-dom@18.2.0)
+      '@devtools-ui/collection': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
+      '@devtools-ui/text': 0.3.0(@types/node@20.14.13)(react-dom@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.2.0)
-      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0)
+      '@player-tools/dsl': 0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0)
       '@player-ui/asset-transform-plugin': 0.7.3(@player-ui/player@0.7.3)(@player-ui/types@0.7.3)
       '@player-ui/player': 0.7.3
       '@player-ui/react': 0.7.3(@player-ui/types@0.7.3)(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
@@ -4566,12 +4566,12 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@player-tools/devtools-client@0.7.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0):
+  /@player-tools/devtools-client@0.7.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/player@0.7.2-next.4)(@player-ui/types@0.7.3)(@types/node@20.14.13)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0):
     resolution: {integrity: sha512-pGmZ27mHB9WVbgJAcazL+rIJ8aAxx3Hj6mBxsuBl0Ffxz+FhVl9ydIuliwFvVl9UfIHObQ3gVlM4lLEy+GAKGg==}
     dependencies:
       '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.2.0)(react@18.2.0)
       '@devtools-ds/themes': 1.2.1(@types/react@18.3.1)(react-dom@18.2.0)(react@18.2.0)
-      '@devtools-ui/plugin': 0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/types@0.7.3)(@types/node@20.9.0)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
+      '@devtools-ui/plugin': 0.3.0(@babel/runtime@7.24.4)(@codemirror/autocomplete@6.16.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/theme-one-dark@6.1.2)(@codemirror/view@6.26.3)(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@player-ui/types@0.7.3)(@types/node@20.14.13)(codemirror@6.0.1)(framer-motion@11.1.7)(react-dom@18.2.0)
       '@player-tools/devtools-messenger': 0.7.0
       '@player-tools/devtools-types': 0.7.0
       '@player-ui/pubsub-plugin': 0.7.3(@player-ui/player@0.7.2-next.4)
@@ -4621,7 +4621,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@player-tools/dsl@0.6.0-next.2(@types/node@20.9.0)(@types/react@18.3.1)(react@18.2.0):
+  /@player-tools/dsl@0.6.0-next.2(@types/node@20.14.13)(@types/react@18.3.1)(react@18.2.0):
     resolution: {integrity: sha512-0zb8R/aWYJE2YqLOpSvSBYQpkJDcpiW8oEW0x1kyBcjhuegNtKC/gs2xt3BBDSzV/kAGaieTaIHlX+FFDTb2gg==}
     peerDependencies:
       '@types/react': ^18.2.51
@@ -4642,7 +4642,7 @@ packages:
       react-json-reconciler: 2.0.0(react@18.2.0)
       source-map-js: 1.2.0
       tapable-ts: 0.2.4
-      ts-node: 10.9.2(@types/node@20.9.0)(typescript@5.5.2)
+      ts-node: 10.9.2(@types/node@20.14.13)(typescript@5.5.2)
       tslib: 2.6.2
       typescript: 5.5.2
     transitivePeerDependencies:
@@ -5334,7 +5334,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
       '@types/responselike': 1.0.3
     dev: false
 
@@ -5383,7 +5383,7 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
     dev: false
 
   /@types/lodash.mergewith@4.6.7:
@@ -5403,7 +5403,7 @@ packages:
   /@types/mkdirp@1.0.2:
     resolution: {integrity: sha512-o0K1tSO0Dx5X6xlU5F1D6625FawhC3dU3iqr25lluNv/+/QIVH8RLNEiVokgIZo+mz+87w/3Mkg/VvQS+J51fQ==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
     dev: false
 
   /@types/node@18.19.31:
@@ -5412,8 +5412,8 @@ packages:
       undici-types: 5.26.5
     dev: false
 
-  /@types/node@20.9.0:
-    resolution: {integrity: sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==}
+  /@types/node@20.14.13:
+    resolution: {integrity: sha512-+bHoGiZb8UiQ0+WEtmph2IWQCjIqg8MDZMAV+ppRRhUZnquF5mQkP/9vpSwJClEiSM/C7fZZExPzfU0vJTyp8w==}
     dependencies:
       undici-types: 5.26.5
 
@@ -5466,7 +5466,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
     dev: false
 
   /@types/scheduler@0.23.0:
@@ -5479,7 +5479,7 @@ packages:
   /@types/yauzl@2.10.3:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
     dev: true
 
   /@uiw/codemirror-extensions-basic-setup@4.22.0(@codemirror/autocomplete@6.16.0)(@codemirror/commands@6.5.0)(@codemirror/language@6.10.1)(@codemirror/lint@6.7.0)(@codemirror/search@6.5.6)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3):
@@ -5927,15 +5927,15 @@ packages:
     resolution: {integrity: sha512-KbWgR8wOYRAPekEmMXrYYdc7BRyhn2Ftk7KWfMUnQ43hFdojWEFRxhhRUm3/OFEdPa1r0KAvTTg9YQK57xTe0g==}
     engines: {node: '>=0.8'}
 
-  /auto@11.1.6(@types/node@20.9.0)(typescript@5.2.2):
+  /auto@11.1.6(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-GKeZbFWPp7V9d+yWuFvaffVNyLSGFpR/+SrzXt29YKhg8axx5bKQKzbBN0eSzX5DLmhBwS81tWXS+SYpECil9Q==}
     engines: {node: '>=10.x'}
     hasBin: true
     dependencies:
-      '@auto-it/core': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
-      '@auto-it/npm': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
-      '@auto-it/released': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
-      '@auto-it/version-file': 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
+      '@auto-it/core': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
+      '@auto-it/npm': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
+      '@auto-it/released': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
+      '@auto-it/version-file': 11.1.6(@types/node@20.14.13)(typescript@5.2.2)
       await-to-js: 3.0.0
       chalk: 4.1.2
       command-line-application: 0.10.1
@@ -6328,7 +6328,7 @@ packages:
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -11497,7 +11497,7 @@ packages:
     resolution: {integrity: sha512-hd5aYe8XfpWSCoh8vkV+JJmFY22Q2WtUIQIWEM3dYVKnEwMwyiRbxir/kRlTbZdGhoOeKqZ1ammPR/eiS7Tdgg==}
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.9.0)(typescript@5.2.2):
+  /ts-node@10.9.2(@types/node@20.14.13)(typescript@5.2.2):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -11516,7 +11516,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
@@ -11527,7 +11527,7 @@ packages:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  /ts-node@10.9.2(@types/node@20.9.0)(typescript@5.5.2):
+  /ts-node@10.9.2(@types/node@20.14.13)(typescript@5.5.2):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -11546,7 +11546,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.9.0
+      '@types/node': 20.14.13
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
