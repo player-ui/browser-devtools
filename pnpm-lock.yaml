@@ -24,8 +24,8 @@ dependencies:
     specifier: 0.7.0
     version: 0.7.0
   '@player-ui/pubsub-plugin':
-    specifier: 0.7.2-next.4
-    version: 0.7.2-next.4(@player-ui/player@0.7.2-next.4)
+    specifier: 0.8.0
+    version: 0.8.0(@player-ui/player@0.7.2-next.4)
   '@player-ui/react':
     specifier: 0.7.2-next.4
     version: 0.7.2-next.4(@player-ui/types@0.7.3)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)
@@ -4784,18 +4784,6 @@ packages:
       ts-nested-error: 1.2.1
     dev: false
 
-  /@player-ui/pubsub-plugin@0.7.2-next.4(@player-ui/player@0.7.2-next.4):
-    resolution: {integrity: sha512-D1wr9BcUrgPFFCg6/KJJZ4ZndF5PmHVWi748NYW8+OJaQhL8mSMdPcUYbLUncLG1RaeT+7PFFOG8EQG3VaK1Xg==}
-    peerDependencies:
-      '@player-ui/player': 0.7.2-next.4
-    dependencies:
-      '@babel/runtime': 7.15.4
-      '@player-ui/player': 0.7.2-next.4
-      '@types/pubsub-js': 1.8.6
-      pubsub-js: 1.9.4
-      tapable-ts: 0.2.4
-    dev: false
-
   /@player-ui/pubsub-plugin@0.7.3(@player-ui/player@0.7.2-next.4):
     resolution: {integrity: sha512-kDV8z0Y7YBPXXrUvFNrPpNTXqaqCQEnKxlu6nOOBkArBnlUjmnL/8zbORsH+GruXBubeoTKEaHGUkr3hMrEQyg==}
     peerDependencies:
@@ -4806,6 +4794,18 @@ packages:
       '@types/pubsub-js': 1.8.6
       pubsub-js: 1.9.4
       tapable-ts: 0.2.4
+    dev: false
+
+  /@player-ui/pubsub-plugin@0.8.0(@player-ui/player@0.7.2-next.4):
+    resolution: {integrity: sha512-GcsLI1Q4AcMAmvCVvo+FOLlpD4Ejqh6Rh8UYA/KUWPXl1RYzgEC7QY7RtK8Egu2ddNGl56bzouyuWLsKIDxSBg==}
+    peerDependencies:
+      '@player-ui/player': 0.8.0
+    dependencies:
+      '@player-ui/player': 0.7.2-next.4
+      '@types/pubsub-js': 1.8.6
+      pubsub-js: 1.9.4
+      tapable-ts: 0.2.4
+      tslib: 2.6.2
     dev: false
 
   /@player-ui/react-subscribe@0.7.2-next.4(@types/react@18.2.37)(react@18.2.0):
