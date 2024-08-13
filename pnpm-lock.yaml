@@ -71,8 +71,8 @@ devDependencies:
     specifier: 18.2.15
     version: 18.2.15
   '@types/webextension-polyfill':
-    specifier: ^0.10.7
-    version: 0.10.7
+    specifier: ^0.12.0
+    version: 0.12.0
   auto:
     specifier: ^11.1.6
     version: 11.1.6(@types/node@20.9.0)(typescript@5.2.2)
@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^7.9.0
     version: 7.11.0
   webextension-polyfill:
-    specifier: ^0.10.0
-    version: 0.10.0
+    specifier: ^0.12.0
+    version: 0.12.0
 
 packages:
 
@@ -5472,8 +5472,8 @@ packages:
   /@types/scheduler@0.23.0:
     resolution: {integrity: sha512-YIoDCTH3Af6XM5VuwGG/QL/CJqga1Zm3NkU3HZ4ZHK2fRMPYP1VczsTUqtsf43PH/iJNVlPHAo2oWX7BSdB2Hw==}
 
-  /@types/webextension-polyfill@0.10.7:
-    resolution: {integrity: sha512-10ql7A0qzBmFB+F+qAke/nP1PIonS0TXZAOMVOxEUsm+lGSW6uwVcISFNa0I4Oyj0884TZVWGGMIWeXOVSNFHw==}
+  /@types/webextension-polyfill@0.12.0:
+    resolution: {integrity: sha512-0d1V0jw5wswj11ijrPoUUP+kV2pHCNKDDgQSzNdD1PK5i3vQ0eHiA1xzT5mFwaqdwatrXdgkxgC4BzCQ6C9eUw==}
     dev: true
 
   /@types/yauzl@2.10.3:
@@ -11933,8 +11933,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /webextension-polyfill@0.10.0:
-    resolution: {integrity: sha512-c5s35LgVa5tFaHhrZDnr3FpQpjj1BB+RXhLTYUxGqBVN460HkbM8TBtEqdXWbpTKfzwCcjAZVF7zXCYSKtcp9g==}
+  /webextension-polyfill@0.12.0:
+    resolution: {integrity: sha512-97TBmpoWJEE+3nFBQ4VocyCdLKfw54rFaJ6EVQYLBCXqCIpLSZkwGgASpv4oPt9gdKCJ80RJlcmNzNn008Ag6Q==}
     dev: true
 
   /webidl-conversions@3.0.1:
