@@ -1,3 +1,15 @@
+# v0.0.14 (Tue Aug 13 2024)
+
+#### 🐛 Bug Fix
+
+- Update dependency webextension-polyfill to ^0.12.0 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 1
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+
+---
+
 # v0.0.12 (Fri Jul 26 2024)
 
 #### 🐛 Bug Fix
