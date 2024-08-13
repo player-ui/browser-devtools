@@ -59,8 +59,8 @@ devDependencies:
     specifier: 4.1.1
     version: 4.1.1(prettier@3.0.3)
   '@types/chrome':
-    specifier: 0.0.251
-    version: 0.0.251
+    specifier: 0.0.270
+    version: 0.0.270
   '@types/node':
     specifier: 20.9.0
     version: 20.9.0
@@ -5338,8 +5338,8 @@ packages:
       '@types/responselike': 1.0.3
     dev: false
 
-  /@types/chrome@0.0.251:
-    resolution: {integrity: sha512-UF+yr0LEKWWGsKxQ5A3XOSF5SNoU1ctW3pXcWJPpT8OOUTEspYeaLU8spDKe+6xalXeMTS0TBrX1g0b6qlWmkw==}
+  /@types/chrome@0.0.270:
+    resolution: {integrity: sha512-ADvkowV7YnJfycZZxL2brluZ6STGW+9oKG37B422UePf2PCXuFA/XdERI0T18wtuWPx0tmFeZqq6MOXVk1IC+Q==}
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.15
