@@ -1,3 +1,15 @@
+# v0.0.14 (Mon Aug 19 2024)
+
+#### ⚠️ Pushed to `main`
+
+- chore: conditional sed call based on os ([@rafbcampos](https://github.com/rafbcampos))
+
+#### Authors: 1
+
+- Rafael Campos ([@rafbcampos](https://github.com/rafbcampos))
+
+---
+
 # v0.0.12 (Fri Jul 26 2024)
 
 #### 🐛 Bug Fix
