@@ -11,8 +11,13 @@ for subfolder in build/*; do
 
 			link_tag="<link rel=\"stylesheet\" href=\"$relative_file\" />"
 
-			sed -i "s|</head>|$link_tag</head>|" $devtools_file
+			if [[ "$OSTYPE" == "darwin"* ]]; then
+				# Mac OSX
+				sed -i '' "s|</head>|$link_tag</head>|" $devtools_file
+			else
+				# Other OS such as Linux, Windows, etc.
+				sed -i "s|</head>|$link_tag</head>|" $devtools_file
+			fi
 		done
 	fi
 done
-
