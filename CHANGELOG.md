@@ -1,3 +1,16 @@
+# v0.1.0 (Mon Aug 19 2024)
+
+#### 🚀 Enhancement
+
+- chore: conditional sed call based on os [#24](https://github.com/player-ui/browser-devtools/pull/24) ([@rafbcampos](https://github.com/rafbcampos) player.oss.intuit@gmail.com)
+
+#### Authors: 2
+
+- player oss (player.oss.intuit@gmail.com)
+- Rafael Campos ([@rafbcampos](https://github.com/rafbcampos))
+
+---
+
 # v0.0.14 (Mon Aug 19 2024)
 
 #### ⚠️ Pushed to `main`
