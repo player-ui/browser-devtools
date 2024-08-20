@@ -1,3 +1,15 @@
+# v0.1.1 (Tue Aug 20 2024)
+
+#### 🐛 Bug Fix
+
+- update release script to remove git stash ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.1.1 (Mon Aug 19 2024)
 
 #### 🐛 Bug Fix
