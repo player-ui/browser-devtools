@@ -1,3 +1,15 @@
+# v0.1.1 (Mon Aug 19 2024)
+
+#### 🐛 Bug Fix
+
+- updated to use correct secret ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.0.14 (Mon Aug 19 2024)
 
 #### ⚠️ Pushed to `main`
