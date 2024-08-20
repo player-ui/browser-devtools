@@ -1,3 +1,16 @@
+# v0.1.1 (Tue Aug 20 2024)
+
+#### 🐛 Bug Fix
+
+- Update env for correct secret [#25](https://github.com/player-ui/browser-devtools/pull/25) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
+
+#### Authors: 2
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+- player oss (player.oss.intuit@gmail.com)
+
+---
+
 # v0.1.1 (Mon Aug 19 2024)
 
 #### 🐛 Bug Fix
