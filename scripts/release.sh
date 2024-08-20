@@ -7,8 +7,6 @@ if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
   
-  git stash
-
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
   ## publish to npm
