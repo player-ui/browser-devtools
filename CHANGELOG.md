@@ -2,6 +2,18 @@
 
 #### 🐛 Bug Fix
 
+- using 0.1.0 for version ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
 - Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
 
 #### Authors: 1
