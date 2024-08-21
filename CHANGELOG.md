@@ -2,6 +2,28 @@
 
 #### 🐛 Bug Fix
 
+- Update env for correct secret [#25](https://github.com/player-ui/browser-devtools/pull/25) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
+
+#### ⚠️ Pushed to `main`
+
+- using 0.1.0 for version ([@mercillo](https://github.com/mercillo))
+- 0.0.15 ([@mercillo](https://github.com/mercillo))
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+- pulls version from git ([@mercillo](https://github.com/mercillo))
+- removed pnpm publish, conflicts with gittag plugin ([@mercillo](https://github.com/mercillo))
+- update release script to remove git stash ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 2
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+- player oss (player.oss.intuit@gmail.com)
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
 - Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
 
 #### Authors: 1
