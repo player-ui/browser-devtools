@@ -30,6 +30,12 @@ jobs:
       - name: fetch tags
         run: git fetch --tags
 
+      - name: git status
+        run: git status
+
+      - name: git diff
+        run: git diff
+
       - name: auto version 
         run: pnpm release
         env:
