@@ -9,8 +9,6 @@ if [ ! -z "$VERSION" ]; then
   
   ## Publish Package
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
-  ## publish to npm
-  pnpm publish 
 
   echo $branch
 
