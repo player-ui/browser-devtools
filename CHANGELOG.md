@@ -2,6 +2,18 @@
 
 #### 🐛 Bug Fix
 
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
 - Update env for correct secret [#25](https://github.com/player-ui/browser-devtools/pull/25) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
 
 #### ⚠️ Pushed to `main`
