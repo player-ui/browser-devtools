@@ -1,3 +1,15 @@
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
+- chore(deps): update react monorepo ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 1
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+
+---
+
 # v0.1.1 (Mon Aug 19 2024)
 
 #### 🐛 Bug Fix
