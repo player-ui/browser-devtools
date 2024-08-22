@@ -26,8 +26,9 @@ That allow extending the devtools with custom panels, without the need to create
 
 ## Installation
 
-The extension is available for Chrome and Firefox. Links to the extension in the Chrome and Firefox stores will be provided soon.
+The extension is available for Chrome and Firefox. 
 
+[Chrome Link](https://chromewebstore.google.com/detail/player-ui-devtools/oookcmbndmalnmacldppblmblakggabo)
 ## Usage
 
 To use the extension, you need to have the Player UI Devtools running in the inspected page leveraging one or more devtools plugins and have the extension installed. For more information on how to install and use the Player UI Devtools, check out the [Player UI Devtools documentation](https://player-ui.github.io/latest/devtools).
