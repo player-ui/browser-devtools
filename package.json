@@ -1,7 +1,7 @@
 {
   "name": "browser-devtools",
   "displayName": "Player ui devtools",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Player UI devtools browser extension",
   "author": "Rafael Campos <campos.rb@hotmail.com>",
   "scripts": {
