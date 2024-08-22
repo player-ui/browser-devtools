@@ -2,6 +2,19 @@
 
 #### 🐛 Bug Fix
 
+- Read me Update [#27](https://github.com/player-ui/browser-devtools/pull/27) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
+
+#### Authors: 2
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+- player oss (player.oss.intuit@gmail.com)
+
+---
+
+# v0.1.3 (Thu Aug 22 2024)
+
+#### 🐛 Bug Fix
+
 - add chrome link to read me ([@mercillo](https://github.com/mercillo))
 
 #### Authors: 1
