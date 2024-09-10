@@ -1,3 +1,15 @@
+# v0.1.4 (Tue Sep 10 2024)
+
+#### 🐛 Bug Fix
+
+- chore(deps): update dependency typescript to v5.6.2 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 1
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+
+---
+
 # v0.1.3 (Thu Aug 22 2024)
 
 #### 🐛 Bug Fix
