@@ -1,3 +1,15 @@
+# v0.1.4 (Thu Sep 12 2024)
+
+#### 🐛 Bug Fix
+
+- fix(deps): update dependency dset to v3.1.4 [security] ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 1
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+
+---
+
 # v0.1.3 (Thu Aug 22 2024)
 
 #### 🐛 Bug Fix
