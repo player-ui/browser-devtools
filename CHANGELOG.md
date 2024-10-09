@@ -1,3 +1,15 @@
+# v0.1.3 (Thu Aug 22 2024)
+
+#### 🐛 Bug Fix
+
+- updated pnpm lockfile ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.1.2 (Wed Aug 21 2024)
 
 #### 🐛 Bug Fix
