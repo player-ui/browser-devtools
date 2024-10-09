@@ -1,6 +1,10 @@
 name: Release
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+
 
 jobs:
   build:
@@ -24,11 +28,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: install sharp module
-        run: pnpm add sharp
-
       - name: fetch tags
         run: git fetch --tags
+
+      - name: git status
+        run: git status
+
+      - name: git diff
+        run: git diff
 
       - name: auto version 
         run: pnpm release
@@ -66,9 +73,6 @@ jobs:
 
       - name: git status
         run: git status
-
-      - name: git diff
-        run: git stash
 
       - name: pull latest version
         run: git pull --no-rebase

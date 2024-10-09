@@ -7,12 +7,11 @@ if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
   
-  git stash
-
   ## Publish Package
+  ## default GPG key needs to be set for signed commit to work
+  pnpm config set sign-git-tag true
+
   pnpm version $VERSION -m "Bump version to: %s [skip ci]"
-  ## publish to npm
-  pnpm publish 
 
   echo $branch
 
