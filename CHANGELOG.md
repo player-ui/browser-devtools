@@ -1,3 +1,15 @@
+# v0.1.4 (Wed Oct 09 2024)
+
+#### 🐛 Bug Fix
+
+- added lock file ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.1.3 (Thu Aug 22 2024)
 
 #### 🐛 Bug Fix
