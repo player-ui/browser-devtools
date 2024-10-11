@@ -1,3 +1,16 @@
+# v0.1.5 (Fri Oct 11 2024)
+
+#### 🐛 Bug Fix
+
+- update release script to remove git stash [#26](https://github.com/player-ui/browser-devtools/pull/26) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
+
+#### Authors: 2
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+- player oss (player.oss.intuit@gmail.com)
+
+---
+
 # v0.1.4 (Wed Oct 09 2024)
 
 #### 🐛 Bug Fix
