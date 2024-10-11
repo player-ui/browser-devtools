@@ -1,8 +1,102 @@
+# v0.1.4 (Wed Oct 09 2024)
+
+#### 🐛 Bug Fix
+
+- added lock file ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
 # v0.1.3 (Thu Aug 22 2024)
 
 #### 🐛 Bug Fix
 
-- add chrome link to read me ([@mercillo](https://github.com/mercillo))
+- updated pnpm lockfile ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.2 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
+- Update env for correct secret [#25](https://github.com/player-ui/browser-devtools/pull/25) ([@mercillo](https://github.com/mercillo) player.oss.intuit@gmail.com)
+
+#### ⚠️ Pushed to `main`
+
+- using 0.1.0 for version ([@mercillo](https://github.com/mercillo))
+- 0.0.15 ([@mercillo](https://github.com/mercillo))
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+- pulls version from git ([@mercillo](https://github.com/mercillo))
+- removed pnpm publish, conflicts with gittag plugin ([@mercillo](https://github.com/mercillo))
+- update release script to remove git stash ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 2
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+- player oss (player.oss.intuit@gmail.com)
+
+---
+
+# v0.1.1 (Wed Aug 21 2024)
+
+#### 🐛 Bug Fix
+
+- Merge branch 'releaseVerioningFIx' of github.com:player-ui/browser-devtools into releaseVerioningFIx ([@mercillo](https://github.com/mercillo))
+
+#### Authors: 1
+
+- Marlon "Marky" Ercillo ([@mercillo](https://github.com/mercillo))
+
+---
+
+# v0.1.1 (Tue Aug 20 2024)
+
+#### 🐛 Bug Fix
+
+- update release script to remove git stash ([@mercillo](https://github.com/mercillo))
 
 #### Authors: 1
 
