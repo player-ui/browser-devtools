@@ -1,0 +1,11 @@
+minimumReleaseAgeExclude:
+  - '@player-devtools/client-react@1.0.0'
+  - '@player-devtools/client@1.0.0'
+  - '@player-devtools/messenger@1.0.0'
+  - '@player-devtools/types@1.0.0'
+  - '@player-devtools/utils@1.0.0'
+  - '@player-devtools/client-react@1.0.1-next.1'
+  - '@player-devtools/client@1.0.1-next.1'
+  - '@player-devtools/messenger@1.0.1-next.1'
+  - '@player-devtools/types@1.0.1-next.1'
+  - '@player-devtools/utils@1.0.1-next.1'
